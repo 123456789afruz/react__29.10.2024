@@ -1,6 +1,25 @@
 .catalog {
     margin-bottom: 100px;
 
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 500;
+        padding: 180px 0;
+        h1 {
+            font-weight: 500;
+        }
+        h2 {
+            font-weight: 500;
+            color: gray;
+            &:hover {
+                color: lightgray;
+            }
+        }
+    }
+
     &__wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -25,24 +44,42 @@
         }
 
         &:nth-child(1) {
-            background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024);
+            background-image: url(https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024);
 
            
         }
         &:nth-child(2) {
-            background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024);
+            background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024);
         }
         &:nth-child(3) {
-            background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024);
+            background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024);
         }
         &:nth-child(4) {
-            background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+            background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024);
         }
         &:nth-child(5) {
-            background-image: url(https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024);
+            background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJvKM7dry6iXcJDi_hWZkUXvtBXitwCqfvJiPLoB7ZxidnNpGF);
         }
         &:nth-child(6) {
+            background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+        }
+        &:nth-child(7) {
+            background-image: url(https://framerusercontent.com/images/e3moUZXfgtjYQY4ILakIMaz4n7s.jpg?scale-down-to=2048);
+        }
+        &:nth-child(8) {
+            background-image: url(https://thumbs.dreamstime.com/b/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B9-%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%B0%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B5%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%82%D1%83%D1%80-%D0%BD%D0%B0-%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%BC-225108126.jpg);
+        }
+        &:nth-child(9) {
+            background-image: url(https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024);
+        }
+        &:nth-child(10) {
             background-image: url(https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024);
+        }
+        &:nth-child(11) {
+            background-image: url(https://framerusercontent.com/images/hQVBeiDNGU2TfeDJALuhawlcto.jpg?scale-down-to=1024);
+        }
+        &:nth-child(12) {
+            background-image: url(https://yt3.googleusercontent.com/YMuI-6T8EgzTH6aKtxyYubTtHYsibvGG2kHdSXOQ9ihrrsgEh1yz33QEJN4St2kN7eH7pUHh=s900-c-k-c0x00ffffff-no-rj);
         }
 
         div {
@@ -62,4 +99,5 @@
             }
         }
     }
+
 }

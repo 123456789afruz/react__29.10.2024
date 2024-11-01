@@ -3,6 +3,10 @@ import './App.scss'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Catalog from './components/Catalog/Catalog'
+import Oli from './components/OLi/Oli'
+import About from './components/About/About'
+import Where from './components/Where/Where'
+
 
 
 const App = () => {
@@ -11,6 +15,10 @@ const App = () => {
       <Header/>
       <Hero/>
       <Catalog/>
+      <Oli/>
+      <About/>
+      <Where/>
+      
     </>
   )
 }

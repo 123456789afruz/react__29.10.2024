@@ -1,0 +1,26 @@
+.oli {
+    h1 {
+        padding: 90px 0 250px;
+        text-align: center;
+        font-size: 62px;
+        font-weight: 500;
+    }
+    &__photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        img {
+            border-radius: 30px;
+            max-height: 520px;
+            height: 100%;
+            max-width: 800px;
+            width: 100%;
+            
+        }
+
+    }
+
+
+
+
+}
